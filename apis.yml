@@ -1,19 +1,44 @@
 aid: noviconnect
-name: Noviconnect
-description: Noviconnect is a company surfaced as a portfolio company of felicis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Novi Connect
+description: >-
+  Novi Connect (Novi) is an AI shopping optimization platform and data infrastructure for CPG and
+  retail brands. It connects brands, certification bodies, and major retailers to verify, standardize,
+  and distribute product data so products are accurately understood, ranked, and recommended by AI
+  shopping systems and agentic search. Products include the AI Shopping Optimizer for SKU-level
+  product-feed optimization and the Product Authority Builder for verified direct data distribution
+  across retailers and marketplaces. Backed by Felicis. No public developer API surface is currently
+  published; product docs are hosted on Notion and customer access is via login apps.
 url: https://raw.githubusercontent.com/api-evangelist/noviconnect/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - felicis
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-public-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.prod.website-files.com/66392100a4c9657a20a5ee78/683acdca063f6461bed51d50_Novi-Meta-OpenGraph.png
 tags:
 - Company
+- AI Commerce
+- CPG
+- Retail
+- Product Data
+- E-commerce
+- Product Discovery
+- AI Shopping Optimization
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/noviconnect-domain-security.yml
 - type: Website
   url: https://noviconnect.com
+- type: Documentation
+  url: https://noviconnect-docs.notion.site/
+- type: Blog
+  url: https://www.noviconnect.com/resources
+- type: Login
+  url: https://app.noviconnect.com/
+- type: PrivacyPolicy
+  url: https://www.noviconnect.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/noviconnect
+- type: Twitter
+  url: https://twitter.com/noviconnect
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

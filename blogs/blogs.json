@@ -1,0 +1,14 @@
+{
+  "repo": "noviconnect",
+  "feeds": [
+    {
+      "source": "https://noviconnect-docs.notion.site/",
+      "feed_url": "https://noviconnect-docs.notion.site/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
