@@ -7,14 +7,17 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: noviconnect.com
   final_host: www.noviconnect.com
-  ownership: inherited
+  ownership: own
   owner: noviconnect
   shares_host_with: null
-  inherited_from: www.noviconnect.com
+  inherited_from: null
+  alias_of: www.noviconnect.com
   verdict: scored
-  score: null
+  score: 50
+  band: 6
+  band_label: dominant
   host_score: 50
-  density: null
+  density: 56.18
   words: 890
   tiers:
     agentic: 5
